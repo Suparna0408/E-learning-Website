@@ -1,0 +1,26 @@
+$spacer: 4em;
+$dark: black;
+// $spacer: (
+//   0: 0,
+//   1: $spacer * .25,
+//   2: $spacer * .5,
+//   3: $spacer,
+//   4: $spacer * 1.5,
+//   5: $spacer * 3,
+// );
+
+// $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null);
+
+.my-6{
+  // margin: $spacer*1.5 0!important;
+  margin-top: $spacer*0.75;
+  margin-bottom: $spacer*0.75;
+}
+.mx-7{
+  margin-left: $spacer*3;
+  margin-right: $spacer*3;
+}
+.mx-8{
+  margin-left: $spacer*2;
+  margin-right: $spacer*2;
+}
